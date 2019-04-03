@@ -1,7 +1,7 @@
 set datafile separator ','
 
 set xlabel 'speed (km/h)'
-set xrange [0:25]
+set xrange [0:35]
 unset xdata
 
 set ylabel 'tilt (^o)'
@@ -9,7 +9,7 @@ set yrange [-5:5]
 unset ydata
 
 set zlabel 'voltage (V)'
-set zrange [70:84]
+set zrange [69:84]
 unset zdata
 
 filename = ARG1
