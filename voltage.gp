@@ -10,4 +10,4 @@ set ylabel 'voltage (V)'
 set autoscale xy
 
 filename = ARG1
-plot filename using 1:4 title "voltage" with lines
+plot filename using 1:10 title "voltage" with lines
